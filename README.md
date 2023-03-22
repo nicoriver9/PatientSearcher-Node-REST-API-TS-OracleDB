@@ -1,7 +1,7 @@
 
 # REST API - Busqueda de pacientes 
 > La aplicación esta basada en las siguientes tecnologías: **Nodejs, JWT, Bcrypt, OrcacleSQL & Typescript**. 
-## Adquirir token de sesión de 3000 segundos
+## Adquirir token con tiempo de expiración
 La misma debe de recibir una petición HTTP POST con un **Body JSON** siguiente estructura:
 
     {
